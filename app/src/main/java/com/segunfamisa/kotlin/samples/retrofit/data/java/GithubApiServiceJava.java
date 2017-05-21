@@ -1,5 +1,7 @@
-package com.segunfamisa.kotlin.samples.retrofit.data;
+package com.segunfamisa.kotlin.samples.retrofit.data.java;
 
+
+import com.segunfamisa.kotlin.samples.retrofit.data.kotlin.Result;
 
 import io.reactivex.Observable;
 import retrofit2.Retrofit;

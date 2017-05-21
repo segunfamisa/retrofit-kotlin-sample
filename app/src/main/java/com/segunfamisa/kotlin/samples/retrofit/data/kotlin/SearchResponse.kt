@@ -1,4 +1,4 @@
-package com.segunfamisa.kotlin.samples.retrofit.data
+package com.segunfamisa.kotlin.samples.retrofit.data.kotlin
 
 import com.google.gson.annotations.SerializedName
 
