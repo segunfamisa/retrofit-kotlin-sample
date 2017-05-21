@@ -12,8 +12,8 @@ interface GithubApiService {
 
     @GET("search/users")
     fun search(@Query("q") query: String,
-               @Query("page") page: Int,
-               @Query("per_page") perPage: Int): Observable<Result>
+               @Query("page") page: Int = 1,
+               @Query("per_page") perPage: Int = 20): Observable<Result>
 
 
     /**
