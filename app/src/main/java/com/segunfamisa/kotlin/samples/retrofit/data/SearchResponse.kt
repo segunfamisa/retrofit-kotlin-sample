@@ -17,3 +17,12 @@ data class User(
         @SerializedName("type") val type: String,
         @SerializedName("score") val score: Int
 )
+
+/**
+ * Entire search result data class
+ */
+data class Result (
+        val total_count: Int,
+        val incomplete_results: Boolean,
+        val items: List<User>
+)
